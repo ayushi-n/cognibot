@@ -1,0 +1,6 @@
+Agent,Rescue rate (%),All 5 rescued (%),Fire hits / mission,Robot recovered (%),Robot destroyed (%),Steps / mission,Mean score,Score SD,Decision time (ms)
+Random walk,16.2,0,2.11,0,66.0,194.7,-33.42,17.54,0.01
+Reactive (no memory),37.6,6.0,1.19,0,25.0,270.5,-13.0,18.93,0.012
+CogniBot (untrained),94.6,83.0,0.63,97.0,3.0,105.4,41.24,15.16,1.014
+CogniBot + memory learning,97.8,90.0,0.36,99.0,1.0,110.2,45.26,9.92,1.024
+CogniBot full (memory + Q),99.0,95.0,0.36,99.0,1.0,103.3,46.2,8.22,1.036
