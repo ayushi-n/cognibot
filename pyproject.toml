@@ -1,0 +1,16 @@
+[project]
+name = "cognibot"
+version = "1.0.0"
+description = "A cognitive-architecture rescue robot simulator with memory, rule-based reasoning, A* planning, utility-based decisions and Q-learning."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Ayushi N" }]
+requires-python = ">=3.10"
+dependencies = ["pygame>=2.5", "matplotlib>=3.7"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
